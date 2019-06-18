@@ -1,0 +1,23 @@
+{
+  "name": "@qvvg/gen-color",
+  "version": "0.1.0",
+  "description": "randomly generates colors",
+  "author": "orodio <github@qv.vg>",
+  "license": "MIT",
+  "private": false,
+  "source": "src/gen-color.js",
+  "main": "dist/gen-color.js",
+  "module": "dist/gen-color.mjs",
+  "unpkg": "dist/gen-color.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "watch": "microbundle watch"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "microbundle": "^0.11.0"
+  },
+  "dependencies": {}
+}
